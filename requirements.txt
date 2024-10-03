@@ -1,0 +1,6 @@
+numpy
+pywavelets
+adi-reader
+pandas
+matplotlib
+statsmodels

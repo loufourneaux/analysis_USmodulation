@@ -1,0 +1,41 @@
+Feature: latency
+Cuff ANOVA: F-statistic = 0.013026624985221159, p-value = 0.9103948262975811
+TA ANOVA: F-statistic = 0.0023890619893750112, p-value = 0.9615547668263373
+GM ANOVA: F-statistic = 0.0012842164831880314, p-value = 0.9718075838664101
+
+Feature: amplitude
+Cuff ANOVA: F-statistic = 1.7603234514967783, p-value = 0.20320961644373334
+TA ANOVA: F-statistic = 10.610253572675616, p-value = 0.00463790730735067
+TA Tukey's HSD test:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+==================================================
+group1 group2 meandiff p-adj  lower  upper  reject
+--------------------------------------------------
+     0      1   0.0281 0.0046 0.0099 0.0463   True
+--------------------------------------------------
+GM ANOVA: F-statistic = 38.88144083415409, p-value = 9.049197278640045e-06
+GM Tukey's HSD test:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+     0      1  -0.0328   0.0 -0.0439 -0.0217   True
+---------------------------------------------------
+
+Feature: area
+Cuff ANOVA: F-statistic = 0.19863029267143373, p-value = 0.6611428433772482
+TA ANOVA: F-statistic = 0.20294476776616308, p-value = 0.6577334256083229
+GM ANOVA: F-statistic = 0.20357818656981436, p-value = 0.6572365860322495
+
+Feature: length
+Cuff ANOVA: F-statistic = 0.24589652147558494, p-value = 0.6263290550789504
+TA ANOVA: F-statistic = 9.350058551833909, p-value = 0.007515394203510734
+TA Tukey's HSD test:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+====================================================
+group1 group2 meandiff p-adj   lower   upper  reject
+----------------------------------------------------
+     0      1  -0.1248 0.0075 -0.2113 -0.0383   True
+----------------------------------------------------
+GM ANOVA: F-statistic = 0.6234650021314008, p-value = 0.44004067771176947
+
